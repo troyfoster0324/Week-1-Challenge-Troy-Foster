@@ -1,1 +1,2 @@
-# Week-1-Challenge-Troy-Foster
+# week1-refactor-seo
+Week 1 challenge
