@@ -3,27 +3,25 @@
     padding: 0;
     margin: 0;
 }
-
+/* background color for body division */
 body {
     background-color: #d9dcd6;
 }
-
+/* Added a padding layer of 20 px around the header.  Applied a font family, background color of blue, and a font color. */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* defines the orientation of the header 1 properties (horizontialy), and font size of 48px */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
-    color: #d9dcd6;
-}
-
+/* added padding of 15px to the top of the div under header, margin values to the right side, allows the element to float right of the container, and added a font family/ font size.
+*/
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,25 +29,27 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/* defines the style type as no style type */
 .header div ul {
     list-style-type: none;
 }
-
+/* gives the divisions unordered list the inline-block display type, and adds a margin to the left of the element of 25px
+*/
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* adds the color of the links, and defines that there is no text decoration.
+*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* Defines the text size for all paragraphs */
 p {
     font-size: 16px;
 }
-
+/* affects the attributes of all the div under the body element */
 .hero {
     height: 800px;
     width: 100%;
@@ -58,23 +58,24 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* Creates the position (left) and margin of images for the body section */
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* Creates the position (right) and margin of the images for the body section */
 .float-right {
     float: right;
-    margin-left: 25px;
+    margin-right: 25px;
 }
-
+/* Creates the borders for the div inside of the body, aswell as the display type. */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* Creates the margin, and padding for the images and paragraphs under the second division under the body.  Floating elements are not allowed to float on both sides. The width, height,font family used, and the background are also defined in this class.
+*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -85,55 +86,43 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/* Creates the margin and color for the benefit lead image */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* Creates the margin and color for the benefit brand image */
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* Creates the margin and color for the benefit cost image */
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* Adds margin and text alignment to the h3 benefit lead section under the body */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* Adds margin and text alignment to the h3 benefit brand section under the body */
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* Adds margin and text alignment to the h3 benefit cost section under the body */
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
-.benefit-lead img {
+/* Creates the display type, margin, and max width of the images */
+.benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
+/* adds margins, padding, and height of the text.  Height, font family, background, and the color of the text as well */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -142,7 +131,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* adds margins, padding, and height of the text.  Height, font family, background, and the color of the text as well */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -151,7 +140,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* adds margins, padding, and height of the text.  Height, font family, background, and the color of the text as well */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -160,41 +149,41 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
+/* Creates the margin size for the bottom of the h2 section as well as the font size */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* Adjust the height of the images under the body */
+.search-engine-optimization img {
+    max-height: 200px;
+}
+/* Adjust the height of the images under the body */
+.online-reputation-management img {
+    max-height: 200px;
+}
+/* Adjust the height of the images under the body */
+.social-media-marketing img {
+    max-height: 200px;
+}
+/* Sets the margin and font size for the h2 section under the Id in the body element */
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* Sets the margin and font size for the h2 section under the Id in the body element */
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* Adds the padding, clear doesnt allow elements to float, created the font family, and aliogned the text to the center of the page */
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/* Added the font size to the footer h2 section of 20px */
 .footer h2 {
     font-size: 20px;
 }
